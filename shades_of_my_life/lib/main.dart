@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    void changeColor(y) { // การเติม void คือการบอกว่าจะไม่มีการ return อะไรกลับมา แต่โดยปกติจะต้องใส่เป็นให้มีการ return ผลลัพธ์อะไรกลับมาสักอย่างเช่น int
+    void changeColor(y) { // การเติม void คือการบอกว่าจะไม่มีการ return อะไรกลับมา แต่โดยปกติจะต้องใส่ให้มีการ return ผลลัพธ์อะไรกลับมาสักอย่างเช่น int
       double height = MediaQuery.of(context).size.height - MediaQuery.of(context).padding.top;
       shade = (y / height * 16777215).round(); // .dy เท่ากับ dimension = แกน y
       // shade = (details.localPosition.dy / height * 16777215).round(); // .dy เท่ากับ dimension = แกน y
