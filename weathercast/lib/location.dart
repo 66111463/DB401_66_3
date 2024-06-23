@@ -1,6 +1,6 @@
 import 'package:geolocator/geolocator.dart';
 
-Future<Position> getCurrentLocation() async { // หาก return มี await ฟังก์ชั่นนี้ต้องมี async ด้วย
+Future<Position> getCurrentLocation() async { // หาก return มี await ฟังก์ชั่นนี้ต้องมี async ด้วย // Future เป็นลักษณะเดียวกับ Promise เป็นการสัญญาว่าจะมีการ Return ค่าอะไรบางอย่างกลับออกมา
   bool serviceEnabled; // boolean เป็นแค่ค่า TRUE หรือ FALSE เท่านั้น
   LocationPermission permission;
 
