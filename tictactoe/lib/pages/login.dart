@@ -37,6 +37,7 @@ class _LoginState extends State<Login> {
           child: Padding(
             padding: const EdgeInsets.all(24.0), // ครอบด้วย pedding กำหนดขนาดขอบ
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Image.asset('images/logo.png', height: 100,), // จัดวางรูปภาพ
                 const SizedBox(height: 48,), // กำหนดขนาด SizedBox
